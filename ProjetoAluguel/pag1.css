@@ -1,0 +1,31 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.parallax {
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 1px; /* Cria a perspectiva para o efeito 3D */
+}
+
+.parallax-layer {
+    position: relative;
+    width: 100%;
+    height: 50vh; /* 100% da altura da viewport */
+    transform-style: inherit;
+}
+
+.layer-1 {
+    background-image: url('/img/kwid/todo.jfif');
+    background-size: cover;
+    transform: translateZ(-1px) scale(2); /* Movimento mais lento - ajuste os valores conforme necessário */
+}
+
+.layer-2 {
+    background-image: url('/img/kwid/interior1.jfif');
+    background-size: cover;
+    transform: translateZ(-2px) scale(2.5); /* Movimento mais rápido - ajuste os valores conforme necessário */
+}
