@@ -1,0 +1,52 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    background-image: linear-gradient(to right, #535353, #f0efef);
+}
+header{
+    height: 15%;
+
+}
+#logo img{
+    height: 100%;
+    
+}
+ 
+nav{
+    text-align:center;
+    float:inline-end;
+    width: 25rem; 
+    height: 10rem;
+   
+}
+#menu{
+    text-decoration:none;  
+    float:inline-start;
+    margin: 50px 0 0 60px;
+    color: white;
+    font-size: 1.1rem; 
+    font-size: 20px;
+    
+}
+#menu:hover{
+    color:#535353;
+}
+main{
+    
+    margin: 0 15% 0 15%;
+}
+#discricao h1{
+    margin-left: 30%;
+    font-size: 45px;
+}
+#discricao p{
+    text-align: center;
+    font-size: 25px;
+    color:#070707;
+}
+#caixa img{
+    margin-left: 30%;
+    width: 50%;
+    border-radius: 10%;
+}
